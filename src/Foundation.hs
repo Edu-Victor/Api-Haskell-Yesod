@@ -39,6 +39,9 @@ mkYesodData "App" [parseRoutes|
 /avaliacoes/#AvaliacaoId              AvaliacaoR        GET PUT DELETE
 
 /cep/#Text                            CepR              GET
+
+/reset                                ResetR            POST
+
 |]
 
 

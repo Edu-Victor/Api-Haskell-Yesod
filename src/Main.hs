@@ -20,6 +20,7 @@ import Handler.Leitor
 import Handler.Emprestimo
 import Handler.Avaliacao
 import Handler.Cep
+import Handler.Reset
 
 
 mkYesodDispatch "App" resourcesApp
