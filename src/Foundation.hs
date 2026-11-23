@@ -1,4 +1,3 @@
-
 module Foundation where
 
 import Yesod
