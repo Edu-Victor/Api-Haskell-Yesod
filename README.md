@@ -30,17 +30,17 @@ Arquitetura escolhida: **Opção B – Backend Yesod + Postman** (somente API, t
 
 ### Variáveis de ambiente
 
-A conexão com o banco e a porta vêm de variáveis de ambiente. Quando uma variável não existe, vale o padrão (o banco local).
+A conexão com o banco e a porta vêm de variáveis de ambiente. Todas as variáveis `DB_*` são obrigatórias: se alguma não estiver definida, a aplicação não inicia.
 
-| Variável | Padrão (local) | Exemplo em produção |
-|---|---|---|
-| `DB_HOST` |
-| `DB_PORT` |
-| `DB_USER` |
-| `DB_PASSWORD` |
-| `DB_NAME` |
-| `DB_SSLMODE` |
-| `PORT` |
+| Variável | Descrição |
+|---|---|
+| `DB_HOST` | Endereço do servidor do banco |
+| `DB_PORT` | Porta do banco |
+| `DB_USER` | Usuário do banco |
+| `DB_PASSWORD` | Senha do banco |
+| `DB_NAME` | Nome do banco de dados |
+| `DB_SSLMODE` | Modo de conexão SSL (`require` em produção) |
+| `PORT` | Porta em que a API escuta (o Render define sozinho) |
 
 ## Deploy (Render + Docker + PostgreSQL na DigitalOcean)
 
