@@ -107,6 +107,3 @@ Todas as entidades seguem o padrão: `GET /recurso` (listar), `POST /recurso` (c
 
 Códigos de resposta: `200` OK, `201` criado, `400` dados inválidos, `404` não encontrado, `409` conflito (ex.: excluir autor que tem livros, e-mail repetido). Erros vêm no formato `{"erro": "mensagem"}`.
 
-## Integrantes
-
-- Nome – principais contribuições
